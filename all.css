@@ -1,6 +1,31 @@
 *{
     margin: 0;
     padding: 0;
+   list-style: none;
    box-sizing: border-box;
-    border: 10px solid;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.img-start{
+    border: 1px solid red;
+}
+
+#img-master{
+    border: 3px dashed lightskyblue;
+}
+
+.relative{
+    margin-left: 20px;
+    background: pink;
+    width: 500px;
+    height: 500px;
+}
+
+.absolute{
+    background: black;
+    width: 100px;
+    height: 100px;
 }
